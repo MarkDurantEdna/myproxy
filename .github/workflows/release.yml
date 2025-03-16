@@ -1,0 +1,47 @@
+name: RELEASE
+on:   
+  push:
+
+jobs:
+  run1:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT1 }}
+  run2:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT2 }}
+  run3:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT3 }}
+  run4:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT4 }}
+  run5:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT5 }}
+  run6:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT6 }}

@@ -95,19 +95,3 @@ jobs:
       - name: running
         continue-on-error: true
         run: ${{ secrets.PORT10 }}
-  run11:
-    needs: [run]
-    runs-on: ubuntu-24.04
-    timeout-minutes: 360
-    steps: 
-      - name: running
-        continue-on-error: true
-        run: ${{ secrets.PORT11 }}
-  run12:
-    needs: [run]
-    runs-on: ubuntu-24.04
-    timeout-minutes: 360
-    steps: 
-      - name: running
-        continue-on-error: true
-        run: ${{ secrets.PORT12 }}

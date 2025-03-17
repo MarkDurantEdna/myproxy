@@ -45,3 +45,45 @@ jobs:
       - name: running
         continue-on-error: true
         run: ${{ secrets.PORT6 }}
+  run7:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT7 }}
+  run8:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT8 }}
+  run9:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT9 }}
+  run10:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT10 }}
+  run11:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT11 }}
+  run12:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT12 }}

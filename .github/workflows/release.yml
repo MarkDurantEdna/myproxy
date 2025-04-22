@@ -1,7 +1,6 @@
 name: RELEAS
 on:   
   push:
-
 jobs:
   run:
     runs-on: ubuntu-24.04

